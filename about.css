@@ -1,0 +1,60 @@
+.about_us{
+    text-align: center;
+    font-family: cursive;
+    text-decoration:solid;
+    background-color: burlywood;
+    margin-left: 650px;
+    margin-right: 650px;
+    border-radius: 50px;
+    
+}
+
+body{
+    background-color:cornsilk;
+}
+
+.examples-area{
+    justify-content: space-between;
+}
+
+.examples-card {
+    width: 23%;
+    position: relative;
+    height: 400px;
+    background: black;
+    background:linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url("images/saksham.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    margin-top: 155px;
+    gap: 20px;
+}
+
+.examples-margin{
+    margin-left: 70px;
+}
+.examples-margin2{
+    margin-right: 70px;
+}
+
+.examples-card:hover{
+    /* height: 410px;
+    width:24% */
+    transform: scale(1.1);
+    box-shadow: 0 0 10px gray;
+    transition: transform 0.5s ease-in-out , box-shadow 0.5s ease-in-out;
+}
+
+.flex{
+    display: flex;
+    text-align: center;
+}
+
+.card-text{
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    color: white;
+    font-family:'Baloo 2';
+    LINE-HEIGHT: 25PX;
+
+}
